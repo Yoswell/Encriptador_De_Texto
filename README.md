@@ -1,1 +1,1 @@
-# encriptador-de-texto![Encriptador](https://user-images.githubusercontent.com/113799193/197365167-1cd6615f-e643-49a5-81f2-eac84d4dbb58.png)
+![Captura de pantalla (24)](https://user-images.githubusercontent.com/113799193/197365226-70adae57-89cb-41be-b58f-435435106c7c.png)
