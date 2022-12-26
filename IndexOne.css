@@ -52,7 +52,7 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   background-color: #ffdc7c;
   border: 10px solid #111113;
   z-index: 4;
@@ -65,7 +65,7 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-direction: column;
   background-color: #ffdc7c;
   border: 10px solid #111113;
   z-index: 4;
@@ -101,7 +101,7 @@ button {
   font-family: 'Silkscreen', cursive;
 }
 
-.contenedor-botones { display: flex; }
+.contenedor-botones { display: flex; padding-top: 100px;}
 
 input {
   width: 100%;
