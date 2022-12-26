@@ -1,8 +1,8 @@
 const inputMensaje = document.querySelector("#mensaje");
 const inputResultado = document.querySelector("#resultado");
-const btnEncriptar = document.querySelector("#encriptar");
-const btnDesencriptar = document.querySelector("#desencriptar");
-const btnCopiar = document.querySelector("#copiar");
+const btnEncriptar = document.getElementById("encriptar");
+const btnDesencriptar = document.getElementById("desencriptar");
+const btnCopiar = document.getElementById("copiar");
 const contenedorErrores = document.querySelector(".contenedor-errores");
 
 function validarMensaje () {
