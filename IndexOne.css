@@ -11,6 +11,10 @@ body {
 
 header {
   background-color: #ffdc7c;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 80px;
 }
 
@@ -25,21 +29,10 @@ header {
   z-index: 3;
 }
 
-.titulo-contenedor {
-  background-color: #ffdc7c;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  border-radius: 20px;
-  z-index: 3;
-  font-family: 'Silkscreen', cursive;
-}
-
-.titulo-contenedor h1 {
+header h1 {
   color: #111113;
   font-size: 2rem;
+  font-family: 'Silkscreen', cursive;
 }
 
 .tarjetas {
@@ -54,7 +47,7 @@ header {
 
 .num1 {
   width: 500px;
-  height: 500px;
+  height: 400px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -67,7 +60,7 @@ header {
 
 .num2 {
   width: 500px;
-  height: 500px;
+  height: 400px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -110,14 +103,8 @@ button {
 
 .contenedor-botones { display: flex; }
 
-.mensaje-contenedor {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  font-size: 20px;
-}
-
 input {
+  width: 100%;
   text-align: center;
   background: transparent;
   border: none;
@@ -152,4 +139,40 @@ input {
 
 ::-webkit-scrollbar-corner {
   background: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .titulo-contenedor {
+    text-align: center;
+  }
+
+  .contenedor-principal {
+    margin-top: 80px;
+  }
+
+  .contenedor-botones {
+    display: grid;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .titulo-contenedor {
+    text-align: center;
+  }
+
+  .num1, .num2 {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  .contenedor-principal {
+    margin-top: 80px;
+  }
+
+  .contenedor-botones {
+    display: grid;
+  }
 }
