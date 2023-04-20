@@ -1,2 +1,2 @@
 Encriptador y desencriptador de texto
-![Encriptador](https://user-images.githubusercontent.com/113799193/209478081-561c9d46-0825-4a07-97ad-927e8a585f4c.png)
+![Encriptador](https://user-images.githubusercontent.com/113799193/233508740-6b5d7cec-b5ac-46cc-b7ea-5d456599fe57.png)
