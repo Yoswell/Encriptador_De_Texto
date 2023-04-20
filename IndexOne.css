@@ -5,26 +5,29 @@
 }
 
 body {
-  background: #111113 !important;
+  background: #fff !important;
   z-index: 7;
+  padding: 30px;
+  height: 90vh;
 }
 
 header {
-  background-color: #ffdc7c;
+  background-color: #f0f0f0;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
+  border-radius: 20px;
+  height: 60px;
 }
 
 .contenedor-principal {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 100%;
-  height: 85vh;
+  height: 100%;
   border-radius: 30px;
   z-index: 3;
 }
@@ -36,8 +39,7 @@ header h1 {
 }
 
 .tarjetas {
-  margin-top: -100px;
-  padding-top: 30px;
+  padding-top: 50px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -47,27 +49,27 @@ header h1 {
 
 .num1 {
   width: 500px;
-  height: 400px;
+  height: 600px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #ffdc7c;
-  border: 10px solid #111113;
+  background-color: #fff;
+  border: 10px solid #fff;
   z-index: 4;
 }
 
 .num2 {
   width: 500px;
-  height: 400px;
+  height: 600px;
   border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #ffdc7c;
-  border: 10px solid #111113;
+  background-color: #f0f0f0;
+  border: 10px solid #fff;
   z-index: 4;
 }
 
@@ -77,13 +79,17 @@ button {
   justify-content: center;
   cursor: pointer;
   color: #FFF;
-  border: 5px solid #ffdc7c;
   background: #111113;
   border-radius: 20px !important;
   width: 200px;
-  padding: 20px;
   height: 50px;
-  font-family: 'Silkscreen', cursive;
+  margin: 10px !important;
+  border: none;
+  transition: 25'Silkscreen', cursive;
+}
+
+button:hover {
+  scale: 1.1;
 }
 
 #copiar {
@@ -92,16 +98,18 @@ button {
   justify-content: center;
   cursor: pointer;
   color: #FFF;
-  border: 5px solid #ffdc7c;
+  border: none;
   background: #111113;
   border-radius: 20px;
   width: 200px;
-  padding: 20px;
   height: 50px;
   font-family: 'Silkscreen', cursive;
 }
-
-.contenedor-botones { display: flex; padding-top: 100px;}
+.mensaje-contenedor {
+  height: 80%;
+  padding-top: 80px;
+}
+.contenedor-botones { display: flex; height: 20%;}
 
 input {
   width: 100%;
@@ -141,13 +149,13 @@ input {
   background: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1060px) {
   .titulo-contenedor {
     text-align: center;
   }
 
   .contenedor-principal {
-    margin-top: 80px;
+    margin-top: 220px;
   }
 
   .contenedor-botones {
@@ -175,4 +183,16 @@ input {
   .contenedor-botones {
     display: grid;
   }
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h3 {
+  padding-top: 60px;
+  font-size: 1rem;
 }
